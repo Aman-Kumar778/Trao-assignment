@@ -1,0 +1,32 @@
+[
+  {
+    "id": "case-normal",
+    "jd": "We are seeking a Senior Full Stack Software Engineer to lead development on our web platform. Responsibilities include building responsive user interfaces with React and TypeScript, designing scalable microservices in Node.js/Express, writing unit and integration tests, and collaborating with cross-functional teams. Requirements: 5+ years of software engineering experience, strong proficiency in JavaScript/TypeScript, experience with RESTful APIs, database design (MongoDB/PostgreSQL), and cloud deployment on AWS.",
+    "company_url": "https://example.com",
+    "days": 5
+  },
+  {
+    "id": "case-unreachable-url",
+    "jd": "Frontend Developer needed with expertise in Vue.js, HTML5, CSS3, and modern frontend toolchains. Must have experience building responsive web designs and optimizing page load speeds.",
+    "company_url": "https://invalid-unreachable-domain-xyz-999.com",
+    "days": 3
+  },
+  {
+    "id": "case-2line-stub",
+    "jd": "Looking for a Python Developer with Django experience.\nMust be skilled in building REST APIs and writing clean code.",
+    "company_url": "https://example.com",
+    "days": 4
+  },
+  {
+    "id": "case-days-1",
+    "jd": "DevOps Engineer required to maintain CI/CD pipelines, Kubernetes clusters, and Docker containers. Strong skills in bash scripting, Terraform, and AWS infrastructure management are essential.",
+    "company_url": "https://example.com",
+    "days": 1
+  },
+  {
+    "id": "case-days-60",
+    "jd": "Data Scientist required with strong experience in Python, PyTorch/TensorFlow, SQL, and statistics. Responsibilities include building predictive machine learning models, running A/B tests, and presenting insights to stakeholders.",
+    "company_url": "https://example.com",
+    "days": 60
+  }
+]

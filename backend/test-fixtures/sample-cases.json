@@ -1,0 +1,14 @@
+[
+  {
+    "id": "case-1-acme",
+    "jd": "Senior Software Engineer. Required: 5+ years React, Node.js, and System Design. Preferred: Docker and GraphQL.",
+    "company_url": "http://localhost:8099/",
+    "days": 5
+  },
+  {
+    "id": "case-2-thin-jd",
+    "jd": "React developer wanted. 3+ years experience required.",
+    "company_url": "http://localhost:9999/unreachable-url",
+    "days": 3
+  }
+]

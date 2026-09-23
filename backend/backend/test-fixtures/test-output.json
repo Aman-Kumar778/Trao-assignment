@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-09-22T16:40:49.196Z",
+  "kits": [
+    {
+      "id": "case-1-acme",
+      "status": "failed",
+      "kit": null,
+      "error": {
+        "code": "LLM_ERROR",
+        "message": "LLM generation failed after 3 attempts: GEMINI_API_KEY is missing"
+      }
+    },
+    {
+      "id": "case-2-thin-jd",
+      "status": "failed",
+      "kit": null,
+      "error": {
+        "code": "LLM_ERROR",
+        "message": "LLM generation failed after 3 attempts: GEMINI_API_KEY is missing"
+      }
+    }
+  ]
+}

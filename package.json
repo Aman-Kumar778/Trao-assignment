@@ -1,0 +1,17 @@
+{
+  "name": "traq-interview-prep-kit",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm --workspace=backend run dev",
+    "dev:frontend": "npm --workspace=frontend run dev",
+    "build": "npm run build --workspaces",
+    "test": "npm --workspace=backend run test",
+    "evaluate": "npm --workspace=backend run evaluate --"
+  }
+}
