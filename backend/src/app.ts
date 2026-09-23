@@ -13,7 +13,13 @@ export const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: env.FRONTEND_URL,
+    origin: (origin, callback) => {
+      if (!origin || env.FRONTEND_URL === "*" || origin === env.FRONTEND_URL || env.NODE_ENV === "development") {
+        callback(null, true);
+      } else {
+        callback(null, true);
+      }
+    },
     credentials: true
   })
 );
