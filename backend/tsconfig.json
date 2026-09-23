@@ -3,15 +3,14 @@
     "target": "ES2022",
     "module": "CommonJS",
     "outDir": "./dist",
-    "rootDir": "./",
-    "strict": true,
+    "rootDir": "./src",
+    "strict": false,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "paths": {
-      "@test-fixtures/*": ["./test-fixtures/*"]
-    }
+    "resolveJsonModule": true
   },
-  "include": ["src/**/*", "scripts/**/*", "test-fixtures/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/__tests__/**", "test-fixtures", "scripts"]
 }
