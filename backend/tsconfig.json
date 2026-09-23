@@ -10,7 +10,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
     "paths": {
       "@traq/shared": ["../shared/dist/index.d.ts", "../shared/src/index.ts"]
     }
